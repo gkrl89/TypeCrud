@@ -41,7 +41,7 @@ const Sidebar = () => {
   const showSidebar = () => 
   {
     setSidebar(!sidebar);}
-    console.log("sidebar" , sidebar)
+    
   return (
       <IconContext.Provider value={{ color: '#fff' }}>
           <Nav>

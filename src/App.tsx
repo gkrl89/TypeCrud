@@ -6,7 +6,7 @@ import Empdashboard from "./CRUD/dashboard";
 import Navbar from "./CRUD/emphome";
 import Sidebar from "./CRUD/sidebar";
 import Support from "./CRUD/support";
-import Products from "./CRUD/products";
+import Products from "./CRUD/pagination/products";
 import Contact from "./CRUD/contact";
 import FAQ from "./CRUD/faq";
 import Email from "./CRUD/email";

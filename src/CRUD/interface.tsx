@@ -5,4 +5,12 @@ export interface IEmp {
     id:number
   }
  
+
+  export interface IPost{
+
+userid:number;
+id:number;
+title:string;
+
+  }
   
