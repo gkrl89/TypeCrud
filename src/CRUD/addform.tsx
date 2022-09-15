@@ -7,8 +7,11 @@ import { Link } from "react-router-dom";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
+import { SidebarData } from "./sidebardata";
 
 const EmpForm = () => {
+  const [sidebar, setSidebar] = useState(true);
+
   const [emp, setEmp] = useState({
     name: "",
     desgn: "",
@@ -60,21 +63,8 @@ const EmpForm = () => {
       <div className="body">
         <div className="header">
           <h1>Add Employee</h1>
-          <Navbar bg="dark" variant="dark">
-            <Container>
-              <Navbar.Brand href="Home"></Navbar.Brand>
-              <Nav className="flex-grow-1 justify-content-evenly">
-                <Nav.Link as={Link} to={"/dashboard"}>
-                  Employee Dashboard
-                </Nav.Link>
-                <Nav.Link as={Link} to={"/"}>
-                  Home
-                </Nav.Link>
-              </Nav>
-            </Container>
-          </Navbar>
-        </div>
-
+        </div>{" "}
+   
         <div className="form">
           <label> Enter Name : </label>
           <input

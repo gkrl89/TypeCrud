@@ -12,8 +12,11 @@ import ModalTitle from "react-bootstrap/ModalTitle";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
+import { SidebarData } from "./sidebardata";
 
 const Empdashboard = () => {
+  const [sidebar, setSidebar] = useState(true);
+
   const [empdetails, setEmpdetails] = useState<IEmp[]>([]);
   const [emp, setEmp] = useState({
     name: "",
@@ -93,24 +96,12 @@ const Empdashboard = () => {
     <>
       <div className="header">
         <h1> Employee Dashboard</h1>
-        <Navbar bg="dark" variant="dark">
-          <Container>
-            <Navbar.Brand href="Home"></Navbar.Brand>
-            <Nav className="flex-grow-1 justify-content-evenly">
-              <Nav.Link as={Link} to={"/addemp"}>
-                Add Employee
-              </Nav.Link>
-              <Nav.Link as={Link} to={"/"}>
-                Home
-              </Nav.Link>
-            </Nav>
-          </Container>
-        </Navbar>
       </div>
+      
       <div className="dashboard">
         <br />
         <br />
-        <table>
+        <table className="tablebody" >
           <thead>
             <tr>
               <th>Employee Name</th>

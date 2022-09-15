@@ -11,14 +11,16 @@
 }
 body{
     background-color: rgb(255, 255, 255);
-    background-image: url('ofc.jpg') ;
+    display: grid;
+    place-items: center;
+   
 }
 .form
 {    
   background-color: white;
     border: 20px solid black;
     border-radius: 2pt;
-    margin:100pt;
+    margin:200pt;
     width: 600px;
     display: grid;
     place-items: center;
@@ -64,7 +66,9 @@ display: grid;
 place-items:right
 
   }
-  .table, th {
+    .table, th {
+    margin: 500pt;
+    width:300px;
     border:5px solid rgb(1, 0, 0);
     border-collapse: collapse;
     font-size: 15px;
@@ -73,8 +77,16 @@ place-items:right
   
     
   }
+  .tablebody{
+display: grid;
+place-items: center;
+margin: 200pt;
+
+  }
 
   .table ,td {
+    margin: 700pt;
+    width:300px;
     border:2px solid rgb(1, 0, 0);
     border-collapse: collapse;
     background-color: white;
@@ -85,8 +97,8 @@ place-items:right
 
   .table tr ,td button{
       
-      margin: 10px;
-      width: 100px;
+    margin: 10px;
+      width:300px;
       height: 50px;
       border:5px solid rgb(1, 0, 0);
       border-collapse: collapse;
