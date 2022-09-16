@@ -3,11 +3,7 @@ import { IEmp } from "./interface";
 import "./empdetails.css";
 import axios from "axios";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Link } from "react-router-dom";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import Container from "react-bootstrap/Container";
-import { SidebarData } from "./sidebardata";
+
 
 const EmpForm = () => {
   const [sidebar, setSidebar] = useState(true);

@@ -1,18 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { IEmp } from "./interface";
 import axios from "axios";
-import { Link } from "react-router-dom";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import Container from "react-bootstrap/Container";
-import ModalBody from "react-bootstrap/ModalBody";
-import ModalHeader from "react-bootstrap/ModalHeader";
-import ModalFooter from "react-bootstrap/ModalFooter";
 import ModalTitle from "react-bootstrap/ModalTitle";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
-import { SidebarData } from "./sidebardata";
+
 
 const Empdashboard = () => {
   const [sidebar, setSidebar] = useState(true);

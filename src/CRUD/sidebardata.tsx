@@ -24,7 +24,7 @@ export const SidebarData = [
     subNav: [
       {
         title: 'Add Employee',
-        path: '/team/addemp',
+        path: '/team/formikaddform',
         icon: <AiIcons.AiOutlineUserAdd />
       },
       {

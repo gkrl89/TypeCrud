@@ -1,7 +1,8 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import EmpForm from "./CRUD/addform";
+import EmpForm from './CRUD/formikaddform'
+// import EmpForm from "./CRUD/addform";
 import Empdashboard from "./CRUD/dashboard";
 import Navbar from "./CRUD/emphome";
 import Sidebar from "./CRUD/sidebar";
@@ -17,11 +18,13 @@ import Home from "./CRUD/home"
 function App() {
   return (
     <>
+
+{/* <EmpForm /> */}
       <Routes>
         <Route path="/" element={<Sidebar />} />
         <Route path="/home" element={<Home />} />
         <Route path="/team" element={<Team />} />
-        <Route path="/team/addemp" element={<EmpForm />} />
+        <Route path="/team/formikaddform" element={<EmpForm />} />
         <Route path="team/dashboard" element={<Empdashboard />} />
         <Route path="/support" element={<Support />} />
         <Route path="//support/faq" element={<FAQ />} />

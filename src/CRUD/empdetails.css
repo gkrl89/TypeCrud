@@ -1,120 +1,105 @@
-.header{
-
-    border: 5px solid black;
-    border:collapse;
-    background-color: rgb(0, 0, 0);
-    color:rgb(255, 255, 255);
-    display: grid;
-    place-items:center;
-    height:100pt;
-    width:100vw;
+.header {
+  border: 5px solid black;
+  border: collapse;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  display: grid;
+  place-items: center;
+  height: 100pt;
+  width: 100vw;
 }
-body{
-    background-color: rgb(255, 255, 255);
-    display: grid;
-    place-items: center;
-   
+body {
+  background-color: rgb(255, 255, 255);
 }
-.form
-{    
+.form {
   background-color: white;
-    border: 20px solid black;
-    border-radius: 2pt;
-    margin:200pt;
-    width: 600px;
-    display: grid;
-    place-items: center;
-    
+  border: 20px solid black;
+  border-radius: 2pt;
+  margin: 200pt;
+  width: 600px;
+  display: grid;
+  place-items: center;
 }
-.form label{
-    margin: 10px;
-    width: 200px;
-    height: 40px;
-    padding-left: 10px;
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    font-family:fantasy;
-  }
-.form input{
-    margin: 10px;
-    width: 200px;
-    height: 40px;
-    border: 2px solid #052905;
-    background-color: rgb(255, 255, 255);
-    padding-left: 10px;
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    font-family:fantasy;
-  }
+.form label {
+  margin: 10px;
+  width: 200px;
+  height: 40px;
+  padding-left: 10px;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: fantasy;
+}
+.form input {
+  margin: 10px;
+  width: 200px;
+  height: 40px;
+  border: 2px solid #052905;
+  background-color: rgb(255, 255, 255);
+  padding-left: 10px;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: fantasy;
+}
 
-  .form button{
-    display: block;
-    place-items: center;
-    margin: 10px;
-    width: 350pt;
-    height: 50pt;
-    border: none;
-    font-size: 100px;
-    font-family:fantasy;
-    color: rgb(240, 244, 248);
-    background-color: #000000;
-    font-size: 18px;
-  }
-  .dashboard
-  {
-display: grid;
-place-items:right
+.form button {
+  display: block;
+  place-items: center;
+  margin: 10px;
+  width: 350pt;
+  height: 50pt;
+  border: none;
+  font-size: 100px;
+  font-family: fantasy;
+  color: rgb(240, 244, 248);
+  background-color: #000000;
+  font-size: 18px;
+}
+.dashboard {
+  display: grid;
+  place-items: right;
+}
+.table,
+th {
+  margin: 500pt;
+  width: 300px;
+  border: 5px solid rgb(1, 0, 0);
+  border-collapse: collapse;
+  font-size: 15px;
+  background-color: #343434;
+  color: rgb(247, 239, 239);
+}
+.tablebody {
+  display: grid;
+  place-items: center;
+  margin: 200pt;
+}
 
-  }
-    .table, th {
-    margin: 500pt;
-    width:300px;
-    border:5px solid rgb(1, 0, 0);
-    border-collapse: collapse;
-    font-size: 15px;
-    background-color: #343434;
-    color:rgb(247, 239, 239);
-  
-    
-  }
-  .tablebody{
-display: grid;
-place-items: center;
-margin: 200pt;
+.table,
+td {
+  margin: 700pt;
+  width: 300px;
+  border: 2px solid rgb(1, 0, 0);
+  border-collapse: collapse;
+  background-color: white;
+}
 
-  }
+.table tr,
+td button {
+  margin: 10px;
+  width: 300px;
+  height: 50px;
+  border: 5px solid rgb(1, 0, 0);
+  border-collapse: collapse;
 
-  .table ,td {
-    margin: 700pt;
-    width:300px;
-    border:2px solid rgb(1, 0, 0);
-    border-collapse: collapse;
-    background-color: white;
-   
+  border: none;
+  font-size: 100px;
+  font-family: fantasy;
+  color: rgb(254, 254, 255);
+  background-color: #1c1d1c;
+  font-size: 18px;
+}
 
-
-  }
-
-  .table tr ,td button{
-      
-    margin: 10px;
-      width:300px;
-      height: 50px;
-      border:5px solid rgb(1, 0, 0);
-      border-collapse: collapse;
-       
-      border: none;
-      font-size: 100px;
-      font-family:fantasy;
-      color: rgb(254, 254, 255);
-      background-color: #1c1d1c;
-      font-size: 18px;
-    }
-
-    .list{
-
-margin:200pt;
-    width: 600px;
-
-
-    }
+.list {
+  margin: 200pt;
+  width: 600px;
+}
